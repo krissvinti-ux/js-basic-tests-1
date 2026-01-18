@@ -39,20 +39,20 @@ describe('Comparaciones en Javascript', () => {
 describe("Operaciones aritméticas", () => {
     it("Usando suma", () => {
         //completa la asignación de a y b
-        const a = '50';
-        const b = '50';
+        const a = 50;
+        const b = 50;
         expect(a + b).toBe(100);
     });
     it("Usando multiplicación", () => {
         //completa la asignación de a y b
-        const a = '1';
-        const b = '13';
+        const a = 1;
+        const b = 13;
         expect(a * b).toBe(13);
     });
     it("Usando división", () => {
         //completa la asignación de a y b
-        const a = '5';
-        const b = '2';
+        const a = 5;
+        const b = 2;
         expect(a / b).toBe(2.5);
     });
 });
@@ -62,14 +62,14 @@ describe('Algebra booleana', () => {
     it("Usando el operador AND (&&)", () => {
         const a = true;
         //completa la asignación de b
-        const b = 'true';
+        const b = true;
         const expression = a && b;
         expect(expression).toBeTruthy();
     });
     it("Usando el operador OR (||)", () => {
         const a = false;
         //completa la asignación de b
-        const b = 'false';
+        const b = false;
         const expression = a || b;
         expect(expression).toBeFalsy();
     });
